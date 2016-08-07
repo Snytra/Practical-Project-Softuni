@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Merriweather">
+</head>
+
+<style>
+
+    .affix {
+        top: 0;
+        width: 100%;
+    }
+
+    .affix + .container-fluid {
+        padding-top: 70px;
+    }
+
+    #logo{
+        margin-top: 0;
+        height: 25px;
+    }
+
+    .navbar-custom {
+        border-radius:0 ;
+        font-family: "Merriweather",serif;
+        font-size: 14px;
+        background-color: #b3b3b3;
+        border-color: #a2a2a2;
+        background-image: -webkit-gradient(linear, left 0%, left 100%, from(#cccccc), to(#b3b3b3));
+        background-image: -webkit-linear-gradient(top, #cccccc, 0%, #b3b3b3, 100%);
+        background-image: -moz-linear-gradient(top, #cccccc 0%, #b3b3b3 100%);
+        background-image: linear-gradient(to bottom, #cccccc 0%, #b3b3b3 100%);
+        background-repeat: repeat-x;
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffcccccc', endColorstr='#ffb3b3b3', GradientType=0);
+    }
+    .navbar-custom .navbar-brand {
+        color: #ffffff;
+    }
+    .navbar-custom .navbar-brand:hover,
+    .navbar-custom .navbar-brand:focus {
+        color: #e6e6e6;
+        background-color: transparent;
+    }
+    .navbar-custom .navbar-text {
+        color: #ffffff;
+    }
+    .navbar-custom .navbar-nav > li > a {
+        color: #ffffff;
+    }
+    .navbar-custom .navbar-nav > li > a:hover,
+    .navbar-custom .navbar-nav > li > a:focus {
+        color: #24994c;
+        background-color: transparent;
+    }
+    .navbar-custom .navbar-nav > .active > a,
+    .navbar-custom .navbar-nav > .active > a:hover,
+    .navbar-custom .navbar-nav > .active > a:focus {
+        color: #24994c;
+        background-color: #a2a2a2;
+        background-image: -webkit-gradient(linear, left 0%, left 100%, from(#a2a2a2), to(#bcbcbc));
+        background-image: -webkit-linear-gradient(top, #a2a2a2, 0%, #bcbcbc, 100%);
+        background-image: -moz-linear-gradient(top, #a2a2a2 0%, #bcbcbc 100%);
+        background-image: linear-gradient(to bottom, #a2a2a2 0%, #bcbcbc 100%);
+        background-repeat: repeat-x;
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffa2a2a2', endColorstr='#ffbcbcbc', GradientType=0);
+    }
+    .navbar-custom .navbar-nav > .disabled > a,
+    .navbar-custom .navbar-nav > .disabled > a:hover,
+    .navbar-custom .navbar-nav > .disabled > a:focus {
+        color: #cccccc;
+        background-color: transparent;
+    }
+    .navbar-custom .navbar-toggle {
+        border-color: #dddddd;
+    }
+    .navbar-custom .navbar-toggle:hover,
+    .navbar-custom .navbar-toggle:focus {
+        background-color: #dddddd;
+    }
+    .navbar-custom .navbar-toggle .icon-bar {
+        background-color: #cccccc;
+    }
+    .navbar-custom .navbar-collapse,
+    .navbar-custom .navbar-form {
+        border-color: #a1a1a1;
+    }
+    .navbar-custom .navbar-nav > .dropdown > a:hover .caret,
+    .navbar-custom .navbar-nav > .dropdown > a:focus .caret {
+        border-top-color: #24994c;
+        border-bottom-color: #24994c;
+    }
+    .navbar-custom .navbar-nav > .open > a,
+    .navbar-custom .navbar-nav > .open > a:hover,
+    .navbar-custom .navbar-nav > .open > a:focus {
+        background-color: #a2a2a2;
+        color: #24994c;
+    }
+    .navbar-custom .navbar-nav > .open > a .caret,
+    .navbar-custom .navbar-nav > .open > a:hover .caret,
+    .navbar-custom .navbar-nav > .open > a:focus .caret {
+        border-top-color: #24994c;
+        border-bottom-color: #24994c;
+    }
+    .navbar-custom .navbar-nav > .dropdown > a .caret {
+        border-top-color: #ffffff;
+        border-bottom-color: #ffffff;
+    }
+    @media (max-width: 767) {
+        .navbar-custom .navbar-nav .open .dropdown-menu > li > a {
+            color: #ffffff;
+        }
+        .navbar-custom .navbar-nav .open .dropdown-menu > li > a:hover,
+        .navbar-custom .navbar-nav .open .dropdown-menu > li > a:focus {
+            color: #24994c;
+            background-color: transparent;
+        }
+        .navbar-custom .navbar-nav .open .dropdown-menu > .active > a,
+        .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:hover,
+        .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:focus {
+            color: #24994c;
+            background-color: #a2a2a2;
+        }
+        .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a,
+        .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+        .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+            color: #cccccc;
+            background-color: transparent;
+        }
+    }
+    .navbar-custom .navbar-link {
+        color: #ffffff;
+    }
+    .navbar-custom .navbar-link:hover {
+        color: #24994c;
+    }
+
+    .row.content {height: 450px}
+
+    /* Set gray background color and 100% height */
+
+
+</style>
+
+<body>
+
+<div id="banner" style="height:200px;">
+    <img src="../FotorCreated.jpg" style=" height:205px;width: 100%">
+</div>
+
+
+<nav class="navbar navbar-custom" data-spy="affix" data-offset-top="197" >
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img src="../LogoMakr.png"  id="logo"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Why us?</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+        <div style="height: 900px;" >
+            <h1>Welcome</h1>
+            <p>LuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMarto
+                AndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLub
+                oMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndrei
+                LuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMa
+                rtoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndr
+                eiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndrei
+                LuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMart
+                oAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndre
+                iLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndrei
+                LuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboM
+                artoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMa
+                rtoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoA
+                ndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndrei
+                LuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLubo
+                MartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMart
+                oAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAn
+                dreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiL
+                uboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboM
+                artoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAn
+                dreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiL
+                uboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMa
+                rtoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAn
+                dreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiL
+                uboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMa
+                rtoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAndreiLuboMartoAn
+                dreiLuboMartoAndrei</p>
+
+
+        </div>
+
+
+
+
+
+
+
+</div>
+
+</body>
+
+</html>
