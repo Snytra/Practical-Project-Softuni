@@ -1,2 +1,0 @@
-# Practical-Project-Softuni
-aa
