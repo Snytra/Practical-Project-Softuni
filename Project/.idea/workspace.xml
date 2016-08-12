@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d6e3f5f-c1b7-4862-8cee-6f4d54801b26" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PhotographyWebSite/index.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/13936790_1243030865720939_13471866_n.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FotorCreated.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/LogoMakr (1).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/LogoMakr.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/create_thumb.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kuler-touch.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old_man_looking.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/navigationBar3/navigaton_bar_3.html" afterPath="$PROJECT_DIR$/navigationBar3/navigaton_bar_3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhotographyWebSite/.idea/workspace.xml" afterPath="$PROJECT_DIR$/PhotographyWebSite/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhotographyWebSite/css/full.css" afterPath="$PROJECT_DIR$/PhotographyWebSite/css/full.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhotographyWebSite/index.html" afterPath="$PROJECT_DIR$/PhotographyWebSite/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/navigationBar2/nav_bar_1.html" afterPath="$PROJECT_DIR$/navigationBar2/nav_bar_1.html" />
     </list>
     <ignored path="Project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,7 +27,28 @@
     <favorites_list name="Project" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PhotographyWebSite/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="full.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PhotographyWebSite/css/full.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -53,10 +69,11 @@
         <option value="$PROJECT_DIR$/navigationBar/nav_bar_style.css" />
         <option value="$PROJECT_DIR$/navigationBar/nav_bar.html" />
         <option value="$PROJECT_DIR$/navigationBar/navbarstyle.css" />
-        <option value="$PROJECT_DIR$/navigationBar2/nav_bar_1.html" />
         <option value="$PROJECT_DIR$/navigationBar3/navigaton_bar_3.html" />
-        <option value="$PROJECT_DIR$/PhotographyWebSite/index.html" />
         <option value="$PROJECT_DIR$/PhotographyWebSite/css/modern-business.css" />
+        <option value="$PROJECT_DIR$/navigationBar2/nav_bar_1.html" />
+        <option value="$PROJECT_DIR$/PhotographyWebSite/index.html" />
+        <option value="$PROJECT_DIR$/PhotographyWebSite/css/full.css" />
       </list>
     </option>
   </component>
@@ -70,10 +87,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="-7" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -108,7 +124,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -121,10 +137,16 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane />
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/PhotographyWebSite" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/startbootstrap-agency-gh-pages" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="js-jscs-nodeInterpreter" value="D:\Program Files\nodejs\node.exe" />
@@ -181,6 +203,8 @@
       <workItem from="1470676094829" duration="8452000" />
       <workItem from="1470819084553" duration="9964000" />
       <workItem from="1470872043080" duration="104000" />
+      <workItem from="1470910560438" duration="1196000" />
+      <workItem from="1470945604405" duration="12981000" />
     </task>
     <task id="LOCAL-00001" summary="Update1.0">
       <created>1470759974514</created>
@@ -193,13 +217,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85010000" />
+    <option name="totallyTimeSpent" value="99187000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <frame x="-7" y="0" width="697" height="735" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2555066" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51248163" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -239,6 +263,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/PhotographyWebSite/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PhotographyWebSite/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -300,20 +332,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/navigationBar2/nav_bar_1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="156" column="73" selection-start-line="156" selection-start-column="34" selection-end-line="156" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhotographyWebSite/css/modern-business.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/PhotographyWebSite/css/modern-business.css" />
     <entry file="file://$PROJECT_DIR$/navigationBar3/navigaton_bar_3.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1666">
@@ -321,10 +340,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/navigationBar2/nav_bar_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="163" column="52" selection-start-line="163" selection-start-column="52" selection-end-line="163" selection-end-column="52" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PhotographyWebSite/css/full.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PhotographyWebSite/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="631">
-          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+        <state relative-caret-position="299">
+          <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
           <folding />
         </state>
       </provider>
