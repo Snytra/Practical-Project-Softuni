@@ -21,6 +21,24 @@ a {
     transition: all 0.35s;
     color: #F05F40;
 }
+#information-vruzki{
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    transition: all 0.35s;
+    color: white;
+}
+#information-vruzka{
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    transition: all 0.35s;
+    color: white;
+}
+#information-vruzkaa{
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    transition: all 0.35s;
+    color: white;
+}
 a:hover,
 a:focus {
     color: #eb3812;
@@ -32,6 +50,9 @@ h4,
 h5,
 h6 {
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+.footer-text-color{
+    color: white;
 }
 p {
     font-size: 16px;
@@ -147,6 +168,9 @@ aside {
         color: #F05F40;
     }
 }
+#services1{
+    background-color: #222222;
+}
 .container-fluid .navbar-brand {
     display: flex;
     align-items: center;
@@ -216,8 +240,12 @@ header .header-content .header-content-inner p {
         margin-right: auto;
     }
 }
+.container-kiko{
+    background-color: #222222;
+}
 .section-heading {
     margin-top: 0;
+    color: white;
 }
 .service-box {
     max-width: 400px;
