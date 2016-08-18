@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9d0c232-3953-4754-bd39-a01ea9539544" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Project/PhotographyWebSite/css/magnific-popup.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Project/PhotographyWebSite/js/jquery.magnific-popup.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/PhotographyWebSite/index.html" afterPath="$PROJECT_DIR$/Project/PhotographyWebSite/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/PhotographyWebSite/js/creative.js" afterPath="$PROJECT_DIR$/Project/PhotographyWebSite/js/creative.js" />
     </list>
     <ignored path="Practical-Project-Softuni.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,8 +27,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Project/PhotographyWebSite/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="283" column="55" selection-start-line="283" selection-start-column="55" selection-end-line="283" selection-end-column="55" />
+            <state relative-caret-position="438">
+              <caret line="290" column="7" selection-start-line="290" selection-start-column="7" selection-end-line="290" selection-end-column="7" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -353,7 +349,7 @@
       <workItem from="1471180992408" duration="7683000" />
       <workItem from="1471249664996" duration="3942000" />
       <workItem from="1471283350559" duration="2029000" />
-      <workItem from="1471366000329" duration="34243000" />
+      <workItem from="1471366000329" duration="34269000" />
     </task>
     <task id="LOCAL-00001" summary="Update7.0">
       <created>1471108008642</created>
@@ -411,14 +407,21 @@
       <option name="project" value="LOCAL" />
       <updated>1471537786934</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Update7.0">
+      <created>1471552329922</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1471552329922</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58157000" />
+    <option name="totallyTimeSpent" value="58183000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="842" height="735" extended-state="0" />
+    <frame x="-7" y="0" width="842" height="735" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20460048" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -645,8 +648,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Project/PhotographyWebSite/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="283" column="55" selection-start-line="283" selection-start-column="55" selection-end-line="283" selection-end-column="55" />
+        <state relative-caret-position="438">
+          <caret line="290" column="7" selection-start-line="290" selection-start-column="7" selection-end-line="290" selection-end-column="7" />
           <folding>
             <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
