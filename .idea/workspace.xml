@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9d0c232-3953-4754-bd39-a01ea9539544" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Project/PhotographyWebSite/Gallery.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Project/PhotographyWebSite/css/Gallery.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/PhotographyWebSite/css/full.css" afterPath="$PROJECT_DIR$/Project/PhotographyWebSite/css/full.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/PhotographyWebSite/index.html" afterPath="$PROJECT_DIR$/Project/PhotographyWebSite/index.html" />
     </list>
     <ignored path="Practical-Project-Softuni.iws" />
@@ -28,14 +25,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Project/PhotographyWebSite/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="537">
-              <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="85">
+              <caret line="40" column="96" selection-start-line="40" selection-start-column="96" selection-end-line="40" selection-end-column="96" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -43,18 +38,31 @@
       <file leaf-file-name="About_us.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Project/PhotographyWebSite/About_us.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="31" column="20" selection-start-line="0" selection-start-column="0" selection-end-line="140" selection-end-column="7" />
-              <folding />
+            <state relative-caret-position="240">
+              <caret line="41" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="160" selection-end-column="7" />
+              <folding>
+                <marker date="1471537639517" expanded="true" signature="3348:3439" placeholder="..." />
+                <marker date="1471537639517" expanded="true" signature="3474:3614" placeholder="..." />
+                <marker date="1471537639517" expanded="true" signature="3650:3981" placeholder="..." />
+                <marker date="1471537639517" expanded="true" signature="3729:3962" placeholder="..." />
+                <marker date="1471537639517" expanded="true" signature="4017:4948" placeholder="..." />
+                <marker date="1471537639517" expanded="true" signature="4110:4929" placeholder="..." />
+                <marker date="1471537639517" expanded="true" signature="4135:4269" placeholder="..." />
+                <marker date="1471537639517" expanded="true" signature="4294:4431" placeholder="..." />
+                <marker date="1471537639517" expanded="true" signature="4456:4589" placeholder="..." />
+                <marker date="1471537639517" expanded="true" signature="4614:4748" placeholder="..." />
+                <marker date="1471537639517" expanded="true" signature="4773:4907" placeholder="..." />
+                <marker date="1471537639517" expanded="true" signature="4984:5113" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gallery.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Gallery.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Project/PhotographyWebSite/Gallery.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="408">
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -63,9 +71,11 @@
       <file leaf-file-name="Gallery.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Project/PhotographyWebSite/css/Gallery.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-24">
-              <caret line="83" column="18" selection-start-line="83" selection-start-column="18" selection-end-line="83" selection-end-column="18" />
-              <folding />
+            <state relative-caret-position="333">
+              <caret line="31" column="24" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="29" />
+              <folding>
+                <marker date="1471537639549" expanded="true" signature="538:562" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,8 +83,8 @@
       <file leaf-file-name="cssAbout.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Project/PhotographyWebSite/css/cssAbout.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="171" selection-end-column="0" />
+            <state relative-caret-position="204">
+              <caret line="12" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="170" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -84,7 +94,7 @@
         <entry file="file://$PROJECT_DIR$/Project/PhotographyWebSite/css/full.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="248">
-              <caret line="149" column="22" selection-start-line="149" selection-start-column="22" selection-end-line="149" selection-end-column="22" />
+              <caret line="154" column="22" selection-start-line="154" selection-start-column="22" selection-end-line="154" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -108,10 +118,10 @@
       <list>
         <option value="$PROJECT_DIR$/Project/PhotographyWebSite/About_us.html" />
         <option value="$PROJECT_DIR$/Project/PhotographyWebSite/css/full.css" />
-        <option value="$PROJECT_DIR$/Project/PhotographyWebSite/index.html" />
         <option value="$PROJECT_DIR$/Project/PhotographyWebSite/.idea/Gallery.html" />
         <option value="$PROJECT_DIR$/Project/PhotographyWebSite/css/Gallery.css" />
         <option value="$PROJECT_DIR$/Project/PhotographyWebSite/Gallery.html" />
+        <option value="$PROJECT_DIR$/Project/PhotographyWebSite/index.html" />
       </list>
     </option>
   </component>
@@ -126,7 +136,7 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
-    <option name="width" value="697" />
+    <option name="width" value="842" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -245,6 +255,9 @@
           <option name="myId" value="UPDATED" />
           <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/PhotographyWebSite/.idea/workspace.xml</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/PhotographyWebSite/About_us.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/PhotographyWebSite/Gallery.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/PhotographyWebSite/css/Gallery.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/PhotographyWebSite/css/cssAbout.css</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/PhotographyWebSite/css/full.css</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/PhotographyWebSite/index.html</PATH>
         </FILE-GROUP>
@@ -254,13 +267,6 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/PhotographyWebSite/css/cssAbout.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/PhotographyWebSite/img/Eli me drazni.JPG</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/PhotographyWebSite/img/Kris e gei.JPG</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/PhotographyWebSite/img/az.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/PhotographyWebSite/img/hristo.JPG</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/PhotographyWebSite/img/mi.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Project/PhotographyWebSite/img/ti.jpg</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -393,7 +399,7 @@
       <workItem from="1471180992408" duration="7683000" />
       <workItem from="1471249664996" duration="3942000" />
       <workItem from="1471283350559" duration="2029000" />
-      <workItem from="1471366000329" duration="23749000" />
+      <workItem from="1471366000329" duration="28264000" />
     </task>
     <task id="LOCAL-00001" summary="Update7.0">
       <created>1471108008642</created>
@@ -437,17 +443,24 @@
       <option name="project" value="LOCAL" />
       <updated>1471376011979</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Update7.0">
+      <created>1471528556024</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1471528556024</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47663000" />
+    <option name="totallyTimeSpent" value="52178000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="697" height="735" extended-state="0" />
+    <frame x="-7" y="0" width="842" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24816446" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20460048" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -491,9 +504,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -509,9 +520,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3876">
           <caret line="228" column="23" selection-start-line="228" selection-start-column="23" selection-end-line="228" selection-end-column="23" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -527,9 +536,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -545,9 +552,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -563,9 +568,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -580,18 +583,8 @@
     <entry file="file://$PROJECT_DIR$/Project/PhotographyWebSite/css/full.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
-          <caret line="149" column="22" selection-start-line="149" selection-start-column="22" selection-end-line="149" selection-end-column="22" />
+          <caret line="154" column="22" selection-start-line="154" selection-start-column="22" selection-end-line="154" selection-end-column="22" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Project/PhotographyWebSite/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -603,34 +596,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Project/PhotographyWebSite/About_us.html">
+    <entry file="file://$PROJECT_DIR$/Project/PhotographyWebSite/css/cssAbout.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="31" column="20" selection-start-line="0" selection-start-column="0" selection-end-line="140" selection-end-column="7" />
+        <state relative-caret-position="204">
+          <caret line="12" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="170" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Project/PhotographyWebSite/css/cssAbout.css">
+    <entry file="file://$PROJECT_DIR$/Project/PhotographyWebSite/About_us.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="171" selection-end-column="0" />
+        <state relative-caret-position="240">
+          <caret line="41" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="160" selection-end-column="7" />
+          <folding>
+            <marker date="1471537639517" expanded="true" signature="3348:3439" placeholder="..." />
+            <marker date="1471537639517" expanded="true" signature="3474:3614" placeholder="..." />
+            <marker date="1471537639517" expanded="true" signature="3650:3981" placeholder="..." />
+            <marker date="1471537639517" expanded="true" signature="3729:3962" placeholder="..." />
+            <marker date="1471537639517" expanded="true" signature="4017:4948" placeholder="..." />
+            <marker date="1471537639517" expanded="true" signature="4110:4929" placeholder="..." />
+            <marker date="1471537639517" expanded="true" signature="4135:4269" placeholder="..." />
+            <marker date="1471537639517" expanded="true" signature="4294:4431" placeholder="..." />
+            <marker date="1471537639517" expanded="true" signature="4456:4589" placeholder="..." />
+            <marker date="1471537639517" expanded="true" signature="4614:4748" placeholder="..." />
+            <marker date="1471537639517" expanded="true" signature="4773:4907" placeholder="..." />
+            <marker date="1471537639517" expanded="true" signature="4984:5113" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project/PhotographyWebSite/Gallery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Project/PhotographyWebSite/css/Gallery.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-24">
-          <caret line="83" column="18" selection-start-line="83" selection-start-column="18" selection-end-line="83" selection-end-column="18" />
-          <folding />
+        <state relative-caret-position="333">
+          <caret line="31" column="24" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="29" />
+          <folding>
+            <marker date="1471537639549" expanded="true" signature="538:562" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Project/PhotographyWebSite/Gallery.html">
+    <entry file="file://$PROJECT_DIR$/Project/PhotographyWebSite/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="85">
+          <caret line="40" column="96" selection-start-line="40" selection-start-column="96" selection-end-line="40" selection-end-column="96" />
           <folding />
         </state>
       </provider>
