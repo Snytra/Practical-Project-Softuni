@@ -35,7 +35,7 @@ p {
     background-color: #F05F40;
 }
 .bg-dark {
-    background-color: #222222;
+    background-color: grey;
     color: white;
 }
 .text-faded {
@@ -50,10 +50,6 @@ aside {
 .no-padding {
     padding: 0;
 }
-
-
-
-
 *{
     margin: 0;
     padding: 0;
