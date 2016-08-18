@@ -142,6 +142,13 @@ aside {
         color: #F05F40;
     }
 }
+.container-fluid .navbar-brand {
+    display: flex;
+    align-items: center;
+}
+.container-fluid .navbar-brand>img {
+    padding: 7px 14px;
+}
 header {
     position: relative;
     width: 100%;
@@ -151,7 +158,7 @@ header {
     background-size: cover;
     -o-background-size: cover;
     background-position: center;
-    background-image: url('../img/DSC_0727.JPG');
+    background-image: url('../img/hristo.JPG');
     text-align: center;
     color: white;
 }
