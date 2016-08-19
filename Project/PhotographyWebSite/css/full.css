@@ -240,9 +240,7 @@ header .header-content .header-content-inner p {
         margin-right: auto;
     }
 }
-.container-footer{
-    background-color: #222222;
-}
+
 .section-heading {
     margin-top: 0;
     color: white;
@@ -451,9 +449,8 @@ body {
     webkit-tap-highlight-color: #222222;
 }
 
-#auboutusFooter{
-    font-size: 14px;
-    color: #F05F40;
+#footer{
+    background: #222222;
 }
 
 
