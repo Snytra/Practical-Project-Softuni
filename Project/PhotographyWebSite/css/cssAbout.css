@@ -1,20 +1,23 @@
 #ekip{
     width: 100%;
-    height: 400px;
+    height: 955px;
     position: relative;
-
     min-height: auto;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
     background-position: center;
-    background-image: url("../img/hristo.JPG");
-    z-index: -1;
-
-
+    background-image: url("../img/obshta snimka.jpg");
+}
+#ekipnSnimka{
+    position: relative;
 }
 #tekstEkip {
     margin-right: auto;
     margin-left: auto;
 }
+.text-center{
+    color: white;
+}
+
