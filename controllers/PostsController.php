@@ -10,28 +10,48 @@ class PostsController extends BaseController
 		$this->posts = $this->model->getAll();
 	}
 	function create()
-	{
-		if ($this->isPost){
-			$title = $_POST['post_title'];
-			if (strlen($title) < 1){
-				$this->setValidationError("post_title", "Title too short.");
-			}
-			$content = $_POST['post_content'];
-			if (strlen($content) < 1){
-				$this->setValidationError("post_content", "Post content is empty.");
-			}
+{
+	if ($this->isPost){
+		$title = $_POST['post_title'];
+		if (strlen($title) < 1){
+			$this->setValidationError("post_title", "Title too short.");
+		}
+		$content = $_POST['post_content'];
+		if (strlen($content) < 1){
+			$this->setValidationError("post_content", "Post content is empty.");
+		}
 
-			if ($this->formValid()){
-				$userId = $_SESSION['user_id'];
-				if ($this->model->create($title, $content, $userId)){
-					$this->addInfoMessage("Post created.");
-					$this->redirect("posts");
-				}
-				else{
-					$this->addErrorMessage("Error: cannot create post.");
-				}
+		if ($this->formValid()){
+			$userId = $_SESSION['user_id'];
+			if ($this->model->create($title, $content, $userId)){
+				$this->addInfoMessage("Post created.");
+				$this->redirect("posts");
+			}
+			else{
+				$this->addErrorMessage("Error: cannot create post.");
 			}
 		}
+	}
+}
+	function uploadphoto()
+	{
+
+			if ($this->isPost) {
+
+				$filetmp = $_FILES["file_img"]["tmp_name"];
+
+				$filename = $_FILES["file_img"]["name"];
+				$filetype = $_FILES["file_img"]["type"];
+				$filepath = "content/photos/".$filename;
+
+				$user_id = $_SESSION['user_id'];
+				move_uploaded_file($filetmp, $filepath);
+
+				$this->model->uploadphoto($filename, $filepath, $filetype, $user_id);
+				
+
+			}
+
 	}
 	public function delete(int $id)
 	{

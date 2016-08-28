@@ -8,6 +8,7 @@ class UsersController extends BaseController
             $password = $_POST['password'];
             $confirm_password = $_POST['confirm_password'];
             $full_name = $_POST['full_name'];
+            $email = $_POST['email'];
             if (strlen($username) <= 1){
                 $this->setValidationError("username", "Username too short.");
                 return;
@@ -21,7 +22,7 @@ class UsersController extends BaseController
                 return;
             }
             $userId = $this->model->register(
-                $username, $password, $full_name);
+                $username, $password, $full_name,$email);
             if ($userId){
                 $_SESSION['username'] = $username;
                 $_SESSION['user_id'] = $userId;

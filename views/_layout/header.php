@@ -52,7 +52,7 @@
                     <a class="page-scroll" href="#">За нас</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="Gallery.html">Галерия</a>
+                    <a class="page-scroll" href="<?=APP_ROOT?>/posts/uploadphoto">Галерия</a>
                 </li>
                 <li>
                     <a class="page-scroll" href="#portfolio">Портфолио</a>
@@ -61,8 +61,16 @@
                     <a class="page-scroll" href="#contact">Контакти</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="login%20form.html">Вход</a>
+                    <a class="page-scroll" href="<?=APP_ROOT?>/users">Вход</a>
                 </li>
+                <?php if ($this->isLoggedIn) : ?>
+                    <div id="logged-in-info">
+                        <span>Hello, <b><?=htmlspecialchars($_SESSION['username'])?></b></span>
+                        <form method="post" action="<?=APP_ROOT?>/users/logout">
+                            <input type="submit" value="Logout"/>
+                        </form>
+                    </div>
+                <?php endif; ?>
             </ul>
         </div>
         <!-- /.navbar-collapse -->

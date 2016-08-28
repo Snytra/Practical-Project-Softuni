@@ -55,7 +55,7 @@ DROP TABLE IF EXISTS `photos`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `photos` (
-  `img_id` int(11) NOT NULL,
+  `img_id` int(11) NOT NULL AUTO_INCREMENT,
   `img_name` varchar(500) NOT NULL,
   `img_path` varchar(500) NOT NULL,
   `img_type` varchar(500) NOT NULL,
@@ -65,7 +65,7 @@ CREATE TABLE `photos` (
   PRIMARY KEY (`img_id`),
   KEY `fk_users_photos_idx` (`usr_id`),
   CONSTRAINT `fk_users_photos` FOREIGN KEY (`usr_id`) REFERENCES `users` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -95,7 +95,7 @@ CREATE TABLE `users` (
   PRIMARY KEY (`id`),
   UNIQUE KEY `username_UNIQUE` (`username`),
   UNIQUE KEY `email_UNIQUE` (`email`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -104,7 +104,7 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES (1,'admin',NULL,NULL,'',NULL,'');
+INSERT INTO `users` VALUES (1,'admin',NULL,NULL,'',NULL,''),(2,'andrey','$2y$10$aVzSEdEOb.XcLFNmrhx19eHaCXCJp.Uy8VbNHFSabEoHp6BtoL9mm','sddgdfgg','fghdfmhoihgdfjkg',NULL,'\0');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -117,4 +117,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2016-08-27 17:47:12
+-- Dump completed on 2016-08-28 18:30:11
