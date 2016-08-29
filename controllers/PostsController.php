@@ -7,7 +7,7 @@ class PostsController extends BaseController
 	}
 	function index()
 	{
-		$this->posts = $this->model->getAll();
+		$this->photos= $this->model->getAll();
 	}
 	function create()
 {
@@ -45,6 +45,7 @@ class PostsController extends BaseController
 				$filepath = "content/photos/".$filename;
 
 				$user_id = $_SESSION['user_id'];
+
 				move_uploaded_file($filetmp, $filepath);
 
 				$this->model->uploadphoto($filename, $filepath, $filetype, $user_id);

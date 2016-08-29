@@ -55,7 +55,7 @@
                     <a class="page-scroll" href="<?=APP_ROOT?>/posts/uploadphoto">Галерия</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#portfolio">Портфолио</a>
+                    <a class="page-scroll" href="<?=APP_ROOT?>/posts/index"">Портфолио</a>
                 </li>
                 <li>
                     <a class="page-scroll" href="#contact">Контакти</a>

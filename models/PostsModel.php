@@ -4,11 +4,7 @@ class PostsModel extends HomeModel
 	function getAll()
 	{
 		$statement = self::$db->query(
-			"SELECT posts.id, title, content, date, full_name, user_id " .
-			"FROM posts " .
-			"LEFT JOIN users " .
-			"On posts.user_id = users.id " .
-			"ORDER BY date DESC");
+			"SELECT * FROM photos ");
 		return $statement->fetch_all(MYSQLI_ASSOC);
 	}
 	function getById(int $id)
