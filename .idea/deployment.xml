@@ -1,18 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="Apache XAMP Web Server">
+  <component name="PublishConfigData" serverName="Appache Webs Server XAMPP">
     <serverData>
-      <paths name="Apache XAMP Web Server">
+      <paths name="Appache Webs Server XAMPP">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$" web="Practical-Project-Softuni" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="Apache XAMP Web Server (1)">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
+            <mapping local="$PROJECT_DIR$" web="photoshoot" />
           </mappings>
         </serverdata>
       </paths>

@@ -31,6 +31,8 @@ class UsersController extends BaseController
             }
             else{
                 $this->addErrorMessage("Error: Registration failed.");
+
+
             }
         }
     }
@@ -44,11 +46,13 @@ class UsersController extends BaseController
             if ($userId){
                 $_SESSION['username'] = $username;
                 $_SESSION['user_id'] = $userId;
-                $this->addInfoMessage("Login successful.");
+                
                 $this->redirect('');
             }
             else{
+
                 $this->addErrorMessage("Error: Login failed.");
+
             }
         }
     }

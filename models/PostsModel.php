@@ -1,12 +1,7 @@
 <?php
 class PostsModel extends HomeModel
 {
-	function getAll()
-	{
-		$statement = self::$db->query(
-			"SELECT * FROM photos ");
-		return $statement->fetch_all(MYSQLI_ASSOC);
-	}
+	
 	function getById(int $id)
 	{
 		$statement = self::$db->prepare(
@@ -26,12 +21,12 @@ class PostsModel extends HomeModel
 		return $statement->affected_rows == 1;
 	} 
 
-	public function uploadphoto (string $filename, string $filepath, string $filetype, int $user_id)
+	public function uploadphoto (string $filename, string $filepath, string $filetype,string $Title,int $user_id)
 	{
 		{					
 			$statement = self::$db->prepare(
-				"INSERT INTO photos(img_name,img_path,img_type,usr_id)  VALUES (?, ?, ?, ?)");
-			$statement->bind_param("sssi", $filename, $filepath,$filetype, $user_id);
+				"INSERT INTO photos(img_name,img_path,img_type,Title,usr_id)  VALUES (?, ?, ?, ?, ?)");
+			$statement->bind_param("ssssi", $filename, $filepath,$filetype,$Title ,$user_id);
 			$statement->execute();
 			return $statement->affected_rows == 1;
 
@@ -39,6 +34,7 @@ class PostsModel extends HomeModel
 
 
 	}
+	
 
 
 

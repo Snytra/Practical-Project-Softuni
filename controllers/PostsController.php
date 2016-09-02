@@ -5,10 +5,7 @@ class PostsController extends BaseController
 	{
 		$this->authorize();
 	}
-	function index()
-	{
-		$this->photos= $this->model->getAll();
-	}
+	
 	function create()
 {
 	if ($this->isPost){
@@ -29,31 +26,32 @@ class PostsController extends BaseController
 			}
 			else{
 				$this->addErrorMessage("Error: cannot create post.");
+				
 			}
 		}
 	}
 }
 	function uploadphoto()
 	{
+		if ($this->isPost) {
 
-			if ($this->isPost) {
+			$filetmp = $_FILES["file_img"]["tmp_name"];
 
-				$filetmp = $_FILES["file_img"]["tmp_name"];
+			$filename = $_FILES["file_img"]["name"];
+			$filetype = $_FILES["file_img"]["type"];
+			$filepath = "content/photos/" . $filename;
+			$fileTitle = $_POST['title'];
+			$user_id = $_SESSION['user_id'];
+			move_uploaded_file($filetmp, $filepath);
 
-				$filename = $_FILES["file_img"]["name"];
-				$filetype = $_FILES["file_img"]["type"];
-				$filepath = "content/photos/".$filename;
 
-				$user_id = $_SESSION['user_id'];
 
-				move_uploaded_file($filetmp, $filepath);
+		$this->model->uploadphoto($filename, $filepath, $filetype,$fileTitle, $user_id);
+			$this->redirect('gallery');
 
-				$this->model->uploadphoto($filename, $filepath, $filetype, $user_id);
-				
-
-			}
-
+		}
 	}
+		
 	public function delete(int $id)
 	{
 		if ($this->isPost){

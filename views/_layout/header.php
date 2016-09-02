@@ -10,14 +10,20 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Baj hui</title>
+    <title><?php if (isset($this->title)) echo htmlspecialchars($this->title) ?></title>
 
+    <!-- CSS for login/register form -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500">
+
+    <link rel="stylesheet" href="<?=APP_ROOT?>/content/assetsforLoginRegisterForm/css/form-elements.css">
+    <link rel="stylesheet" href="<?=APP_ROOT?>/content/assetsforLoginRegisterForm/css/style.css">
 
 
 
     <link href="<?=APP_ROOT?>/content/bootstrap.min.css" rel="stylesheet">
     <link href="<?=APP_ROOT?>/content/full.css" rel="stylesheet">
     <link rel="stylesheet" href="<?=APP_ROOT?>/content/magnific-popup.css">
+    <link href="<?=APP_ROOT?>/content/styles.css" rel="stylesheet">
 
     <link href="fonts/font-awesome.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
@@ -26,6 +32,7 @@
 
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script src="<?=APP_ROOT?>/content/scripts/blog-scripts.js"></script>
 
 
 </head>
@@ -49,27 +56,49 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li id="aboutUs">
-                    <a class="page-scroll" href="#">За нас</a>
+                    <a  href="<?=APP_ROOT?>/aboutus">За нас</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="<?=APP_ROOT?>/posts/uploadphoto">Галерия</a>
+                    <a  href="<?=APP_ROOT?>/gallery">Галерия</a>
                 </li>
-                <li>
-                    <a class="page-scroll" href="<?=APP_ROOT?>/posts/index"">Портфолио</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#contact">Контакти</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="<?=APP_ROOT?>/users">Вход</a>
+
+
+                <li id="LogIn">
+                    <a  data-toggle="dropdown"">Вход</a>
+
+
+
+                        <ul class="dropdown-menu" id="dropdownMenu">
+                            <li id="dropdownMenu">
+                            <li><a href="<?=APP_ROOT?>/users/login">Вход</a></li>
+                            <li><a href="<?=APP_ROOT?>/users/register">Регистрация</a></li>
+                        </ul>
+
                 </li>
                 <?php if ($this->isLoggedIn) : ?>
-                    <div id="logged-in-info">
-                        <span>Hello, <b><?=htmlspecialchars($_SESSION['username'])?></b></span>
-                        <form method="post" action="<?=APP_ROOT?>/users/logout">
-                            <input type="submit" value="Logout"/>
-                        </form>
-                    </div>
+                    <script>
+
+                        function hideLogin() {
+                            document.getElementById('LogIn').style.display = 'none';
+
+                        }
+                        hideLogin();
+
+                    </script>
+                    <li>
+
+                        <div class="dropdown">
+                            <img class="img-responsive img-circle " data-toggle="dropdown"  src="<?=APP_ROOT?>/content/images/avatars/default/defaultavatar.jpg" id="avatar" style="width: 65px;">
+
+                            <ul class="dropdown-menu" id="dropdownMenu">
+                                <li id="dropdownMenu">
+                                <li><a href="<?=APP_ROOT?>/myprofile/uploadavatar">Moqt profile</a></li>
+                                <li><a href="<?=APP_ROOT?>/users/logout">Изход</a></li>
+                            </ul>
+                        </div>
+
+                    </li>
+
                 <?php endif; ?>
             </ul>
         </div>
@@ -77,5 +106,9 @@
     </div>
     <!-- /.container-fluid -->
 </nav>
+
+<?php require_once ('show-notify-messages.php')?>
+
+
 
 

@@ -33,6 +33,12 @@
 <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 <script src="<?=APP_ROOT?>/content/scripts/jquery.magnific-popup.js"></script>
 <script src="<?=APP_ROOT?>/content/scripts/creative.js"></script>
+<script src="<?=APP_ROOT?>/content/scripts/popupPictures.js"></script>
+<script src="<?=APP_ROOT?>/content/assetsforLoginRegisterForm/js/jquery.backstretch.min.js"></script>
+<script src="<?=APP_ROOT?>/content/assetsforLoginRegisterForm/js/scripts.js"></script>
+
+<?php require_once('fill-posted-fields.php'); ?>
+<?php require_once('show-validation-errors.php'); ?>
 
 </body>
 </html>

@@ -1,5 +1,5 @@
 <?php
-define('APP_ROOT', '/Practical-Project-Softuni');
+define('APP_ROOT', '/photoshoot');
 define('DEFAULT_CONTROLLER', 'home');
 define('DEFAULT_ACTION', 'index');
 define('DB_HOST', 'localhost');
